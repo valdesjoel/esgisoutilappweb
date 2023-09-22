@@ -1,55 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Formulaire</title>
+	<title>Login</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-3.4.1-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+
 </head>
 <body>
-	<h1>Formulaire d'inscription</h1>
+	<div class="container col-md-6 col-xs-12 col-md-offset-3 espaceur">
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				AUTHENTIFICATION
+			</div>
+			<div class="panel-body">
+				<form method="POST" action="LogIn.php">
+					<div class="form-group">
+						<label class="control-label">Login :</label>
+						<input class="form-control" type="text" name="">
+					</div>
+					<div class="form-group">
+						<label class="control-label">Password</label>
+						<input class="form-control" type="password" name="">
+					</div>
+					<button class="btn btn-success" type="submit">SE CONNECTER</button>
+					<button class="btn btn-danger" type="reset">ANNULER</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+<!--	<h1>AUTHENTIFICATION</h1>
+
 	<form>
 		<div>
-			<label>Nom:</label>
+			<label>Login :</label>
 			<input type="text" name="">
 		</div>
 		<div>
-			<label>Prenom:</label>
-			<input type="text" name="">
+			<label>Password :</label>
+			<input type="password" name="">
 		</div>
 		<div>
-			<label>E-Mail:</label>
-			<input type="email" name="">
+			<input type="submit" value="SE CONNECTER" name="">
+			<input type="reset" value="ANNULER" name="">
 		</div>
-		<div>
-			<label>Date de Naissance:</label>
-			<input type="date" name="">
-		</div>
-		<div>
-			<label>Sexe :</label>
-			<input type="radio" name="sexe">H
-			<input type="radio" name="sexe">F
-		</div>
-		<div>
-			<label>Filiere</label>
-			<select>
-				<option>SG</option>
-				<option>DAF</option>
-				<option selected>IIRT</option>
-			</select>
-		</div>
-		<div>
-			<label>Matieres</label>
-			<input type="checkbox" name="">Reseaux
-			<input type="checkbox" name="">Programmation
-			<input type="checkbox" name="">Securite
-		</div>
-		<div>
-			<label>Dernier Bulletin</label>
-			<input type="file" name="">
-		</div>
-		<input type="submit" value="Envoyer" name="">
-		<input type="reset" value="Annuler" name="">
-	</form>
+	</form> -->
+
 
 </body>
 </html>
