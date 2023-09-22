@@ -8,21 +8,21 @@
 	
 
 </head>
-<body>
+<body >
 	<div class="container col-md-6 col-xs-12 col-md-offset-3 espaceur">
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				AUTHENTIFICATION
 			</div>
 			<div class="panel-body">
-				<form method="POST" action="LogIn.php">
+				<form method="POST" action="login.php">
 					<div class="form-group">
 						<label class="control-label">Login :</label>
-						<input class="form-control" type="text" name="">
+						<input class="form-control" type="text" name="login" required>
 					</div>
 					<div class="form-group">
 						<label class="control-label">Password</label>
-						<input class="form-control" type="password" name="">
+						<input class="form-control" type="password" name="password" required>
 					</div>
 					<button class="btn btn-success" type="submit">SE CONNECTER</button>
 					<button class="btn btn-danger" type="reset">ANNULER</button>
