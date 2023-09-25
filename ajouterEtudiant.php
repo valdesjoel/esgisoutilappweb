@@ -41,7 +41,7 @@
                         <input class="form-check-input" type="radio" name="sexe" value="Homme"> Homme
                         <input class="form-check-input" type="radio" name="sexe" value="Femme"> Femme
                     </div>
-                    <div class="container-fluid b">
+                    <div class="container-fluid">
                         <button class="btn btn-success  btn-block" type="submit">SAVE</button>
                     </div>
 				</form>
